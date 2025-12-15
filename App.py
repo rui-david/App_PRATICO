@@ -1,4 +1,5 @@
 import streamlit as st
+import panda as pd
 from streamlit_option_menu import option_menu
 
 st.header("Introduzindo elementos Streamlit")
