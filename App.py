@@ -30,6 +30,23 @@ with st.sidebar:
 
     else:
       st.info("carregue um ficheiroExcel para começar")
+
+if men == "Inicio":
+  with st.expander("**Sobre o Instrituto Nacional de Estatistica**"):
+    st.write("Acesse o site www.ine.cv")
+    st.image("INE.png")
+
+if menu == "Widgets":
+  bt = st.button("Dê um clique")
+
+  if bt: 
+    st.info("clicaste num botão acima!")
+
+  sd = st.slider("Mova o ponto do slide!", min_value=25, \
+                 max_value=35, value=30, step=1
+                 )
+  texto = f"Eu tenho {sd} anos!"
+  st.success(texto)
     
 
                     
