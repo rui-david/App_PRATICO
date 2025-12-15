@@ -10,7 +10,7 @@ menu = option_menu(menu_title="Menu",
                    orientation="horizontal")
 
 with st.sidebar:
-    st.sucess("**UPLOAD DE DADOS**")
+    st.success("**UPLOAD DE DADOS**")
 
     dados = st.file_uploader(
       "Carregue...",
