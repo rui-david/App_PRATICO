@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 st.header("Introduzindo elementos Streamlit")
 menu = option_menu(menu_title="Menu", 
                    options=["Inicio", "Gráficos Estáticos", "Gráficos Dinâmicos", "widgets", "Formulário"]
