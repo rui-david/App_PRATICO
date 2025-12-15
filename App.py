@@ -36,7 +36,7 @@ if menu == "Inicio":
     st.write("Acesse o site www.ine.cv")
     st.image("Logo-INE.png")
 
-if menu == "Widgets":
+if menu == "widgets":
   bt = st.button("Dê um clique")
 
   if bt: 
